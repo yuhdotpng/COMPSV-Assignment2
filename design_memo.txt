@@ -1,0 +1,13 @@
+Design Memo: Write Your Design Memo Include a 200–300 word response in your code or in a .txt file:
+- How does your list work?
+- What role does the head play?
+- When might a real engineer need a custom list like this?
+
+Response:
+My linked list is a class that works by taking the node class and assigning a value to the name property of the node class when turning it into an object in the list.
+These objects are then used to perform various functions to manipulate the list such as adding to the front or end or removing from the list. The add to end and remove
+are interesting because they have to iterate through the list but this can be difficult given that linked lists is a class with objects not a list so you can't interate through it
+as you would a normal list, however this is where the head and next come into play. Head (or self.head) is used to tell the posistion relative to the other nodes and next tells
+which node is next in the list so you can have a list without a list by just following the nexts, this is how linked list iteration can work! A real engineer would use this in 
+lists where you're manipulating large amounts of listed data or needing to edit data a lot without taking up much space as one of the benefits to a linked list is that nodes aren't
+necessarily storted contiguously so it can take up less space.
